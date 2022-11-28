@@ -1,0 +1,94 @@
+* {
+  margin: auto;
+  align-items: center;
+  vertical-align: middle;
+}
+body {
+  background-color: #001e27;
+  color: white;
+}
+
+.container {
+  /* width: 500px; */
+  height: 100vh;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #021122;
+  padding: 20px;
+  /* border: 10px solid #002b53; */
+  border-radius: 2%;
+}
+
+div {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+.valid {
+  height: 40px;
+  width: 40px;
+  border: 3px solid;
+  border-color: #e2dbff #2b2838 #303953 #e2dbff;
+  border-radius: 50%;
+  /* background-color: #26ccff; */
+  box-sizing: border-box;
+}
+.valid:hover {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(90, 90, 90);
+}
+
+.checked {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  background-color: #fff5fd;
+  border-color: #2d133b;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.bomb {
+  /* background-color:#26ccff; */
+  height: 40px;
+  width: 40px;
+  border: 3px solid;
+  border-color: #e2dbff #2b2838 #303953 #e2dbff;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.bomb:hover {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(70, 202, 255);
+}
+.one {
+  color: #042926;
+}
+
+.two {
+  color: #109c89;
+}
+
+.three {
+  color: #0a6970;
+}
+
+.four {
+  color: #054444;
+}
+
+#result {
+  margin-top: 5px;
+  color: #46ace7;
+}
