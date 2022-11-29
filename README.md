@@ -1,3 +1,3 @@
 # Play 
 
-lottoplay.netlify.app
+play-game94.netlify.app
