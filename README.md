@@ -1,3 +1,3 @@
-# LottoPlay 
+# Play 
 
 lottoplay.netlify.app
